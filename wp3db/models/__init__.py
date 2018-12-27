@@ -1,1 +1,3 @@
-from .user import Base, User
+from .base import Base
+from .user import User
+from .contact import Contact
