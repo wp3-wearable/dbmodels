@@ -7,6 +7,7 @@ from . import Base
 class Contact(Base):
     __tablename__ = 'contacts'
 
+    id = Column(Integer, primary_key=True)
     name = Column(String(50))
     phone = Column(String(15))
     address = Column(String(100))
